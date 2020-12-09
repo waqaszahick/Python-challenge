@@ -17,7 +17,10 @@ print('Election Results')
 print("-" * 25)
 print('Total Votes: ', total_votes)
 print("-" * 25)
-file.write('Election Results \n\nTotal Votes: ' + str(total_votes) + '\n')
+
+file.write('Election Results \n' + ('-' * 35) + '\nTotal Votes: ' + str(total_votes) + '\n' + ('-' * 35) + '\n')
+# file.write('Election Results \n\nTotal Votes: \n' + str(total_votes) + '\n')
+
 for line in lines[1:]:
     line_cs = line[0:-1].split(',')
     if not line_cs[2] in cand_list:
@@ -38,9 +41,13 @@ max_per = max(per)
 ind_max_per = per.index(max_per)
 max_votes_candidate = cand_list[ind_max_per]
 max_no_votes = cand_votes[ind_max_per]
+
 print("-" * 25)
 print('Winner: ', max_votes_candidate)
-file.write('\n Winner: ' + max_votes_candidate)
+
+file.write(('-' * 35) + '\nWinner: ' + max_votes_candidate + '\n' + ('-' * 35))
+
 print("-" * 25)
 print('\n')
+
 file.close()

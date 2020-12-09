@@ -31,7 +31,6 @@ my_file_1 = os.path.join(current_path, 'analysis//analysis_budget_data.txt')
 file = open(my_file_1,'w+')
 
 print('\n')
-print("-" * 50)
 print('Financial Analysis')
 print("-" * 50)
 print('Total Months: ', total_month)
@@ -42,5 +41,5 @@ print('Greatest Decrease in Profits: {} (${})'.format(min_change_month, min_chan
 print("-" * 50)
 print('\n')
 
-file.write('Financial Analysis \n\n Total Months: ' + str(total_month) + '\n Total: $' + str(net_total) + '\n Average Change: $' + str(average_change) + '\n Greatest Increase in Profits: {} (${})'.format(max_change_month, max_change) + '\n Greatest Decrease in Profits: {} (${})'.format(min_change_month,min_change))
+file.write('Financial Analysis \n' + ('-' * 61) + '\n Total Months: ' + str(total_month) + '\n Total: $' + str(net_total) + '\n Average Change: $' + str(average_change) + '\n Greatest Increase in Profits: {} (${})'.format(max_change_month, max_change) + '\n Greatest Decrease in Profits: {} (${})'.format(min_change_month,min_change) + '\n' + ('-' * 61))
 file.close()
