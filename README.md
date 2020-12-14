@@ -1,5 +1,5 @@
 # Python-challenge
-
+Homework3-Python
 This is my overall third and first Python challenge. In this assignment, I was required complete two Python challenges i.e. ‘PyBank’ and ‘PyPoll’. Therefore, I was provided with two main folders named ‘PyBank’ and ‘PyPoll’. Inside each of these folders, there was another folder called ‘Resources’. There were two CSV (Comma-Separated Values) files in each of these ‘Resources’ folders. The ‘Resource’ folder in ‘PyBank’ had a CSV file called ‘budget_data.csv’ and the ‘Resource’ folder in PyPoll had another CSV file called ‘election_data.csv’. I was required to create a main ‘Python’ script file called ‘main.py’ respectively for both the challenges i.e. ‘PyBank’ and ‘PyPoll’. As part of my assignment requirements, I performed the following tasks:
 * Created a ‘Git Hub’ repository with the name ‘Python-challenge’
 * Cloned my ‘Python-challenge’ repository to my computer
