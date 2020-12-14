@@ -47,6 +47,6 @@ print('Greatest Decrease in Profits: {} (${})'.format(min_change_month, min_chan
 print("-" * 50)
 print('\n')
 
-# Display generate analysis in analysis_budget_data.txt
-file.write('Financial Analysis \n' + ('-' * 61) + '\n Total Months: ' + str(total_month) + '\n Total: $' + str(net_total) + '\n Average Change: $' + str(average_change) + '\n Greatest Increase in Profits: {} (${})'.format(max_change_month, max_change) + '\n Greatest Decrease in Profits: {} (${})'.format(min_change_month,min_change) + '\n' + ('-' * 61))
+# Display analysis output in analysis_budget_data.txt in already generated analysis folder
+file.write('Financial Analysis \n' + ('-' * 56) + '\n Total Months: ' + str(total_month) + '\n Total: $' + str(net_total) + '\n Average Change: $' + str(average_change) + '\n Greatest Increase in Profits: {} (${})'.format(max_change_month, max_change) + '\n Greatest Decrease in Profits: {} (${})'.format(min_change_month,min_change) + '\n' + ('-' * 56))
 file.close()

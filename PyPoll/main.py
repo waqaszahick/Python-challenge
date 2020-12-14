@@ -23,7 +23,7 @@ print('Total Votes: ', total_votes)
 print("-" * 25)
 
 # Display analysis output in analysis_election_data.txt in already generated analysis folder
-file.write('Election Results \n' + ('-' * 35) + '\nTotal Votes: ' + str(total_votes) + '\n' + ('-' * 35) + '\n')
+file.write('Election Results \n' + ('-' * 30) + '\nTotal Votes: ' + str(total_votes) + '\n' + ('-' * 30) + '\n')
 
 # Calculate 'total votes' and 'percentage of votes' for the candidates
 for line in lines[1:]:
@@ -52,7 +52,7 @@ print("-" * 25)
 print('Winner: ', max_votes_candidate)
 
 # Display 'Winner' candidate name in analysis_election_data.txt in already generated analysis folder
-file.write(('-' * 35) + '\nWinner: ' + max_votes_candidate + '\n' + ('-' * 35))
+file.write(('-' * 30) + '\nWinner: ' + max_votes_candidate + '\n' + ('-' * 30))
 
 print("-" * 25)
 print('\n')
